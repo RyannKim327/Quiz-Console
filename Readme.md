@@ -31,3 +31,7 @@ python indexgui.py
 ---
 ### Some guides
 > I use base64 to encrypt the data, so that a normal user may not answer the question, by just looking to the list file. If you want to look for it, [just visit this link](https://www.geeksforgeeks.org/encoding-and-decoding-base64-strings-in-python/). I use enc.py to encrypt the questions, as well as the answers, very quick and easy. To terminate the program, just use CTRL + C on your keyboard. 
+
+---
+### Disclaimer
+> I don't meant to harm if ever that something may offend to you from the given questions and answers. It is just a test game for those who really know about the chosen topic. I tried to choose their real names and not just screen names. I also use some words that are vulgar as choices, that's why you need to expect that. The topic was all about the Noli Me Tangere and the El Filibusterismo.
