@@ -1,3 +1,5 @@
+import json
+
 class sets:
 	def keys(self):
 		k = [
@@ -17,32 +19,5 @@ class sets:
 		return keys
 
 	def getSets(self):
-		lists = [{
-			"q": "Sino si Sisa?",
-			"a": [
-				"Anak mo",
-				"Anak ng kapitbahay mo",
-				"Anak ni Basillo",
-				"Anak ni Narcisa"
-			],
-			"k": 3
-		},{
-			"q": "Sino si Simon?",
-			"a": [
-				"Kaibigan ni Padre Damaso",
-				"Kapatid ni Sisa",
-				"Ex-convict sa bahay ni Big Brother",
-				"Kaibigan ni Fidel"
-			],
-			"k": 3
-		},{
-			"q": "Sino si Maria Clara?",
-			"a": [
-				"Anak ni Pilisopo Tasyo",
-				"Anak ni Padre Salvi",
-				"Anak ni Padre Damaso",
-				"Anak ni Kapitan Tyago"
-			],
-			"k": 2
-		}]
+		lists = json.loads(open("lists.json", "r").read())["lists"]
 		return lists
